@@ -1,7 +1,7 @@
 # Pierre Blot
 This is my minimalist personal website built using only plain html, css and javascript.
 
-![Project cover](src/img/)
+![Project cover](src/img/readme-Screenshot.png)
 
 ## How to use it
 
