@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pierre Blot - Dev Web</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="pierre blot" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Hello, je suis Pierre Blot, développeur web junior en cours de spécialisation React, actuellement en formation chez Openclassrooms à Niort, France."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Développeur web junior en recherche d'emploi - Pierre Blot"
+    />
+    <meta
+      property="og:image"
+      content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Hello, je suis Pierre Blot, développeur web junior en cours de spécialisation React, actuellement en formation chez Openclassrooms à Niort, France."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/base.css" />
+    <link rel="stylesheet" href="./src/css/card.css" />
+    <link rel="stylesheet" href="./src/css/thumbnail.css" />
+    <link rel="stylesheet" href="./src/css/path.css" />
+    <link rel="stylesheet" href="./src/css/skill-box.css" />
+    <link rel="stylesheet" href="./src/css/list.css" />
+    <link rel="favicon" href="./src/img/favicon.ico" />
+  </head>
+  <body>
+    <div class="page">
+      <img id="person-picture" src="./src/img/pierrebogosse.jpg" />
+      <img id="person-country" src="./src/img/Flag_of_France.svg.png" />
+      <div class="card" id="person">
+        <section class="pitch">
+          <h1 id="person-fullname">Pierre Blot</h1>
+          <h2 id="person-job">Développeur Web</h2>
+          <p>
+            Hello, je suis <strong id="person-firstname">Pierre</strong>.
+            <br />Ancien Business Analyst en reconversion
+            <strong id="person-position">Développeur Web</strong>.
+            <br />Actuellement en
+            <strong id="person-company"> formation Openclassrooms</strong>.
+            <br />Habite à <strong id="person-city">Niort</strong>.
+          </p>
+          <div>
+            <a
+              class="button"
+              href="mailto:pierreremy.blot@gmail.com"
+              target="_blank"
+              id="person-email"
+              >M'envoyer un email</a
+            >
+            <span class="or"> ou </span>
+            <a
+              target="_blank"
+              class="button"
+              href="./src/img/CV_Blot_Pierre.pdf"
+              >Voir mon CV</a
+            >
+          </div>
+          <hr />
+        </section>
+        <section class="skills">
+          <h3>Compétences</h3>
+          <ul class="list">
+            <li>
+              <div class="skill-box">
+                <span class="skill-favorite fa fa-bolt"></span>
+                HTML/CSS
+                <div class="box-well">Langage</div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-box">
+                <span class="skill-favorite fa fa-bolt"></span>
+                Javascript
+                <div class="box-well">Langage</div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-box">
+                VueJS
+                <div class="box-well">Framework</div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-box">
+                <span class="skill-favorite fa fa-bolt"></span>
+                React
+                <div class="box-well">Framework</div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-box">
+                Git
+                <div class="box-well">Versioning</div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-box">
+                Firebase
+                <div class="box-well">Cloud</div>
+              </div>
+            </li>
+          </ul>
+          <hr />
+        </section>
+        <section>
+          <h3>Réalisations</h3>
+          <div class="projects">
+            <div class="thumbnail">
+              <div
+                class="thumbnail-cover"
+                style="background-image: url(./src/img/logo_reservia.svg)"
+              ></div>
+              <div class="thumbnail-content">
+                <span class="badge">Responsive</span>
+                <p class="thumbnail-title">Reservia</p>
+                <p class="thumbnail-description">
+                  Intégration responsive d'une maquette de reservation de
+                  logement
+                </p>
+                <div class="thumbnail-footer">
+                  <a
+                    href="https://peterbolt.github.io/PierreBlot_2_08072021/"
+                    target="_blank"
+                    >En savoir plus</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="thumbnail">
+              <div
+                class="thumbnail-cover"
+                style="background-image: url(./src/img/logo_ohmyfood.svg)"
+              ></div>
+              <div class="thumbnail-content">
+                <span class="badge">Animations</span>
+                <p class="thumbnail-title">Ohmyfood</p>
+                <p class="thumbnail-description">
+                  Intégration d'une maquette d'un site Web mobile-first avec
+                  animations CSS
+                </p>
+                <div class="thumbnail-footer">
+                  <a
+                    href="https://peterbolt.github.io/PierreBlot_3_09082021/"
+                    target="_blank"
+                    >En savoir plus</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="thumbnail">
+              <div
+                class="thumbnail-cover"
+                style="background-image: url(./src/img/logo_chouette.webp)"
+              ></div>
+              <div class="thumbnail-content">
+                <span class="badge">SEO</span>
+                <p class="thumbnail-title">La Chouette Agence</p>
+                <p class="thumbnail-description">
+                  Optimisation SEO et accessibilité d'un site d'agence web
+                </p>
+                <div class="thumbnail-footer">
+                  <a
+                    href="https://peterbolt.github.io/PierreBlot_4_08072021_optimized/"
+                    target="_blank"
+                    >En savoir plus</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="thumbnail">
+              <div
+                class="thumbnail-cover"
+                style="background-image: url(./src/img/logo_kanap.png)"
+              ></div>
+              <div class="thumbnail-content">
+                <span class="badge">Javascript</span>
+                <p class="thumbnail-title">Kanap</p>
+                <p class="thumbnail-description">
+                  Construction d'un site e-commerce de canapé
+                </p>
+                <div class="thumbnail-footer">
+                  <a href="google.fr" target="_blank">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </section>
+        <section class="career">
+          <h3>Parcours</h3>
+          <div class="path">
+            <div class="step">
+              <p class="step-title">Openclassrooms - 2021</p>
+              <p>Reconversion -> Formation développeur Web</p>
+              <a
+                class="step-icon"
+                href="https://openclassrooms.com/fr/paths/185-developpeur-web"
+                target="_blank"
+                ><img class="step-icon-img" src="./src/img/logo_OC.jpg"
+              /></a>
+            </div>
+            <div class="step">
+              <p class="step-title">Entreprise de services du numérique</p>
+              <p>
+                6 ans d'expériences en tant que Business Analyst / Product
+                Owner, au travers de différentes missions et clients
+              </p>
+              <a
+                class="step-icon"
+                href="https://www.linkedin.com/in/pierre-blot/"
+                target="_blank"
+                ><img class="step-icon-img" src="./src/img/linkedin-icon.svg"
+              /></a>
+            </div>
+            <div class="step">
+              <p class="step-title">ESIGELEC - 2014</p>
+              <p>Diplome d'ingénieur généraliste</p>
+              <a
+                class="step-icon"
+                href="https://www.esigelec.fr/fr"
+                target="_blank"
+                ><img class="step-icon-img" src="./src/img/logo-esigelec.jpg"
+              /></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- <script src="./src/js/main.js"></script> -->
+  </body>
+</html>
