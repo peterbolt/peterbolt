@@ -47,7 +47,7 @@
   z-index: 2;
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .card {
     position: relative;
     height: 100vh;
@@ -88,4 +88,4 @@
     top: 80px;
     left: calc(8% + 10px);
   }
-}
+} */

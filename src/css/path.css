@@ -59,7 +59,7 @@
   border-radius: 5px;
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .path {
     position: relative;
     display: flex;
@@ -88,4 +88,4 @@
     top: -19px;
     left: -5px;
   }
-}
+} */
